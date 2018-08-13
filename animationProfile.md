@@ -6,7 +6,7 @@ This document shows the syntax for animation profile, the animation profile is w
 ## Main Structure
 The anmation profile contains three main field: objects, shape, predicates_rules.
 
-**objects**: Defining which shape to represent the objects.
+**objects**: Define which shape to represent the objects.
 
 **shape**: Define the attributes of each shapes.
 
