@@ -8,30 +8,31 @@ The anmation profile contains three main field: objects, shape, predicates_rules
 
 **objects**: Defining which shape to represent the objects.
 
-**shape**: Define the attributes of each shapes.
+**shape**: Define the attributes of each shape.
 
-**predicates_rules**: Define the animation rules for each predicates.
+**predicates_rules**: Define the animation rules for each predicate.
 
 The syntax of main structure:
+
 ```
 {
-"objects":{...},
-"shape":{...},
-"predicates_rules":{...}
+  "objects":{...},
+  "shape":{...},
+  "predicates_rules":{...}
 }
 ```
 ## Objects
-The value of objects contains three parts:default,predefine, and customobj.
+The value of objects contains three parts: default, predefine, and customobj.
 
-**default**: Defining the default shape to represent the objects. If an object is not contained in predefine filed, the default shape will be choosen to represent the object.  
+**default**: Define the default shape to represent the objects. If an object is not contained in the predefine file, the default shape will be choosen to represent the object.  
 
-**predefine**: Defining which shape to prepresent which objects.
+**predefine**: Define which shape to prepresent which object.
 
-**customobj**: Defining the shape of objects which is **not** include in the problem pddl. Eg. The table and claw could be the custom object in the **Block World** domain.
+**customobj**: Define the shape of objects which is **not** include in the problem pddl. Eg. The table and claw could be the custom object in the **Block World** domain.
 
 The syntax of objects file:
-```
 
+```
 {
   "objects": {
     "default": "shapename",
@@ -44,9 +45,10 @@ The syntax of objects file:
   }
 }
 ```
-The shapename could be anything shapename in the **shape** section.
+The "shapename" could be any name of shape in the **shape** section.
 
 Example:
+
 ```
 {
   "objects": {
